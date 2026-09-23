@@ -1,8 +1,8 @@
 ## Interface: 120001, 120000, 110207
 ## Title: You Welcome
-## Notes: Automatically replies in guild chat when one of your trigger phrases is posted (works in and out of combat).
+## Notes: Auto-replies in guild chat to trigger phrases and greets members who join or leave the guild.
 ## Author: vine
-## Version: 1.2.0
+## Version: 1.3.0
 ## SavedVariables: YouWelcomeDB
 ## IconTexture: Interface\Icons\INV_Misc_Note_01
 
