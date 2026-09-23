@@ -23,15 +23,11 @@ local function IsSecret(v)
     return issecretvalue and issecretvalue(v)
 end
 
-local function InCombat()
-    return InCombatLockdown() or UnitAffectingCombat("player")
-end
-
 ---------------------------------------------------------------------------
 -- Core logic
 ---------------------------------------------------------------------------
 local function OnGuildMessage(msg, sender)
-    if not db.enabled or InCombat() then return end
+    if not db.enabled then return end
     if IsSecret(msg) or IsSecret(sender) then return end
 
     local trigger  = strtrim(db.trigger or "")

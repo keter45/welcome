@@ -1,11 +1,11 @@
 # You Welcome
 
-A lightweight World of Warcraft addon that automatically replies in guild chat whenever someone posts a trigger phrase you choose — out of combat only.
+A lightweight World of Warcraft addon that automatically replies in guild chat whenever someone posts a trigger phrase you choose — in or out of combat.
 
 ## Features
 
 - **Custom trigger & response** — set both from an in-game panel
-- **Out of combat only** — never replies during combat
+- **Works in and out of combat** — keeps replying even mid-fight
 - **Case-insensitive matching** — `thanks` matches "Thanks!", "THANKS guys", "ty, thanks a lot"
 - **Name placeholder** — use `%n` in the response to insert the sender's name
   (`You're welcome, %n!` → *You're welcome, Arthas!*)
