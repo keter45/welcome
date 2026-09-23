@@ -1,0 +1,9 @@
+## Interface: 120001, 120000, 110207
+## Title: You Welcome
+## Notes: Automatically replies in guild chat when a trigger phrase is posted (out of combat only).
+## Author: vine
+## Version: 1.0.0
+## SavedVariables: YouWelcomeDB
+## IconTexture: Interface\Icons\INV_Misc_Note_01
+
+YouWelcome.lua

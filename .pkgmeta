@@ -1,0 +1,4 @@
+package-as: YouWelcome
+
+ignore:
+  - README.md
